@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  // padding: 3rem;
+
+  .header {
+    display: flex;
+    // background-color: black;
+    text-align: justify;
+    align-items: normal;
+    height: 5rem;
+    padding: 1rem;
+
+    .logo {
+    }
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2.4rem;
+    // background-color: aquamarine;
+
+    .image {
+    }
+
+    .subText {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-items: center;
+
+      h2 {
+        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 0.025em;
+        text-align: center;
+        // opacity: 0.5;
+      }
+
+      p {
+        line-height: 1.5rem;
+        // opacity: 0.5;
+        letter-spacing: 0.025em;
+        text-align: center;
+      }
+      button {
+        width: 200px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 20px;
+        height: 55px;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        transition: all 0.4s ease-in-out;
+        background-color: #ffffff;
+        color: rgb(162, 0, 255);
+        border-color: hsl(0, 0%, 40%);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 9px;
+
+        &:hover {
+          background-position: 100% 0;
+          transition: all 0.4s ease-in-out;
+          background-color: rgb(242, 165, 249);
+          color: #fff;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .social {
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    top: 36rem;
+    right: 12rem;
+    gap: 1rem;
+    border-radius: 50%;
+
+    img {
+      border-radius: 50%;
+
+      // &:last-child {
+      &:hover {
+        filter: brightness(0) saturate(100%) invert(61%) sepia(45%)
+          saturate(6735%) hue-rotate(257deg) brightness(96%) contrast(87%);
+      }
+
+      // &:hover {
+      //   border-radius: 50%;
+      //   background-position: 100% 0;
+      //   transition: all 0.4s ease-in-out;
+      //   background-color: #d85ae6;
+      // }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
