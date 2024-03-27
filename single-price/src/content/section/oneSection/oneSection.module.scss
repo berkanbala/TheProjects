@@ -1,0 +1,33 @@
+.container {
+  background-color: #cae1dd;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  border-radius: 0px 0px 0px 15px;
+
+  span {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  button {
+    width: 230px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    background-color: #111411;
+    color: rgb(238, 238, 238);
+    border-color: hsl(0, 0%, 40%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 9px;
+  }
+}

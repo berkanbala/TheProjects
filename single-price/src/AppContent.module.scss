@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  padding: 30px;
+  background-color: #e7f3f8;
+  border-radius: 15px 15px 0px 0px;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 0px 0px 15px 15px;
+}
