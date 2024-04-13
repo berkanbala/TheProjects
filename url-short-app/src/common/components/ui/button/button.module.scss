@@ -1,0 +1,23 @@
+.container {
+  display: block;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  width: 100%;
+  padding-top: 0.825rem;
+  padding-bottom: 0.825rem;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: box-shadow 200ms ease-in, background-color 100ms ease-in;
+  cursor: pointer;
+  border-color: #ffff;
+
+  &:hover {
+    background-position: 100% 0;
+    transition: all 0.4s ease-in-out;
+    background-color: hsl(180, 61%, 65%);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
